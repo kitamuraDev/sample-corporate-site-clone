@@ -1,0 +1,38 @@
+<section id="works" class="wrapper">
+  <h2 class="sec-title">Works</h2>
+  <ul>
+    <li><img src="/images/works1.jpg" /></li>
+    <li><img src="/images/works2.jpg" /></li>
+    <li><img src="/images/works3.jpg" /></li>
+    <li><img src="/images/works4.jpg" /></li>
+    <li><img src="/images/works5.jpg" /></li>
+    <li><img src="/images/works6.jpg" /></li>
+    <li><img src="/images/works1.jpg" /></li>
+    <li><img src="/images/works2.jpg" /></li>
+    <li><img src="/images/works3.jpg" /></li>
+  </ul>
+</section>
+
+<style>
+  ul {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+  }
+
+  ul li {
+    width: 31%;
+    margin-bottom: 20px;
+  }
+
+  ul li img {
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+
+  ul li img:hover {
+    transform: scale(1.1, 1.1);
+    opacity: 0.7;
+  }
+</style>
