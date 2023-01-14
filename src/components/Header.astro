@@ -1,0 +1,52 @@
+---
+import SocialIcon from './SocialIcon.astro';
+---
+
+<header>
+  <h1 class="site-title">
+    <a href="#">株式会社ガン○ム</a>
+  </h1>
+  <nav>
+    <ul>
+      <li><a href="">About</a></li>
+      <li><a href="">Works</a></li>
+      <li><a href="">News</a></li>
+      <li><a href="">Contact</a></li>
+      <li>
+        <SocialIcon href="https://twitter.com" src="/images/twitter.png" alt="twitter icon" />
+      </li>
+    </ul>
+  </nav>
+</header>
+
+<style>
+  header {
+    max-width: 960px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 170px;
+    padding: 0 1.5rem;
+    margin: 0 auto;
+  }
+
+  ul {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    padding: 8px;
+  }
+
+  ul li {
+    font-size: 0.9rem;
+  }
+
+  ul li a {
+    color: #24292e;
+    transition: all 0.3s;
+  }
+
+  ul li a:hover {
+    opacity: 0.5;
+  }
+</style>
