@@ -49,4 +49,19 @@ import SocialIcon from './SocialIcon.astro';
   ul li a:hover {
     opacity: 0.5;
   }
+
+  @media (max-width: 600px) {
+    header {
+      flex-direction: column;
+      height: auto;
+      line-height: 40px;
+      margin-top: 20px;
+    }
+    ul {
+      gap: 20px;
+    }
+    ul li {
+      font-size: 0.8rem;
+    }
+  }
 </style>
